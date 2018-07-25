@@ -1,0 +1,134 @@
+ALL EMPIRICAL DATA
+(run times in micro seconds. (10 ^ -6))
+
+-- Linear Hashing  (Uniform Keys)
+
+{'alpha': 0.1, 'ins-wc': 12.0, 'ins-am': 2.8, 'srch-wc': 3.0, 'srch-am': 2.2, 'del-wc': 3.0, 'del-am': 2.2}, 
+{'alpha': 0.2, 'ins-wc': 3.0, 'ins-am': 2.2, 'srch-wc': 3.0, 'srch-am': 2.35, 'del-wc': 3.0, 'del-am': 2.25}, 
+{'alpha': 0.3, 'ins-wc': 3.0, 'ins-am': 2.25, 'srch-wc': 3.0, 'srch-am': 2.4, 'del-wc': 3.0, 'del-am': 2.35}, 
+{'alpha': 0.4, 'ins-wc': 4.0, 'ins-am': 2.5, 'srch-wc': 4.0, 'srch-am': 2.5, 'del-wc': 3.0, 'del-am': 2.55}, 
+{'alpha': 0.5, 'ins-wc': 3.0, 'ins-am': 2.5, 'srch-wc': 4.0, 'srch-am': 2.45, 'del-wc': 4.0, 'del-am': 2.5}, 
+{'alpha': 0.6, 'ins-wc': 7.0, 'ins-am': 3.0, 'srch-wc': 6.0, 'srch-am': 2.85, 'del-wc': 5.0, 'del-am': 2.9}, 
+{'alpha': 0.7, 'ins-wc': 7.0, 'ins-am': 3.8, 'srch-wc': 7.0, 'srch-am': 3.65, 'del-wc': 7.0, 'del-am': 3.6}, 
+{'alpha': 0.8, 'ins-wc': 31.0, 'ins-am': 5.8, 'srch-wc': 13.0, 'srch-am': 4.55, 'del-wc': 10.0, 'del-am': 4.5}, 
+{'alpha': 0.9, 'ins-wc': 81.0, 'ins-am': 23.6, 'srch-wc': 78.0, 'srch-am': 22.45, 'del-wc': 75.0, 'del-am': 21.1}
+
+
+-- Linear Hashing (Gaussian Keys)
+
+{'alpha': 0.1, 'ins-wc': 4.0, 'ins-am': 2.5, 'srch-wc': 5.0, 'srch-am': 3.15, 'del-wc': 4.0, 'del-am': 2.4}, 
+{'alpha': 0.2, 'ins-wc': 3.0, 'ins-am': 2.1, 'srch-wc': 3.0, 'srch-am': 2.3, 'del-wc': 3.0, 'del-am': 2.15}, 
+{'alpha': 0.3, 'ins-wc': 3.0, 'ins-am': 2.4, 'srch-wc': 4.0, 'srch-am': 2.65, 'del-wc': 4.0, 'del-am': 2.6}, 
+{'alpha': 0.4, 'ins-wc': 4.0, 'ins-am': 2.3, 'srch-wc': 3.0, 'srch-am': 2.25, 'del-wc': 3.0, 'del-am': 2.45}, 
+{'alpha': 0.5, 'ins-wc': 4.0, 'ins-am': 2.55, 'srch-wc': 3.0, 'srch-am': 2.45, 'del-wc': 3.0, 'del-am': 2.35}, 
+{'alpha': 0.6, 'ins-wc': 4.0, 'ins-am': 2.55, 'srch-wc': 4.0, 'srch-am': 2.9, 'del-wc': 4.0, 'del-am': 2.65}, 
+{'alpha': 0.7, 'ins-wc': 5.0, 'ins-am': 2.9, 'srch-wc': 5.0, 'srch-am': 2.8, 'del-wc': 5.0, 'del-am': 2.8}, 
+{'alpha': 0.8, 'ins-wc': 10.0, 'ins-am': 3.75, 'srch-wc': 10.0, 'srch-am': 3.65, 'del-wc': 9.0, 'del-am': 3.6}, 
+{'alpha': 0.9, 'ins-wc': 19.0, 'ins-am': 7.3, 'srch-wc': 17.0, 'srch-am': 6.75, 'del-wc': 16.0, 'del-am': 6.35}
+
+
+-- Chained Hashing (Uniform Keys)
+
+{'alpha': 0.1, 'ins-wc': 17.0, 'ins-am': 15.75, 'srch-wc': 22.0, 'srch-am': 15.1, 'del-wc': 28.0, 'del-am': 25.4}, 
+{'alpha': 0.2, 'ins-wc': 45.0, 'ins-am': 26.25, 'srch-wc': 25.0, 'srch-am': 24.1, 'del-wc': 46.0, 'del-am': 43.95}, 
+{'alpha': 0.3, 'ins-wc': 61.0, 'ins-am': 37.4, 'srch-wc': 36.0, 'srch-am': 34.3, 'del-wc': 69.0, 'del-am': 64.75}, 
+{'alpha': 0.4, 'ins-wc': 71.0, 'ins-am': 40.75, 'srch-wc': 39.0, 'srch-am': 37.85, 'del-wc': 75.0, 'del-am': 71.8}, 
+{'alpha': 0.5, 'ins-wc': 87.0, 'ins-am': 51.0, 'srch-wc': 47.0, 'srch-am': 44.95, 'del-wc': 124.0, 'del-am': 88.5}, 
+{'alpha': 0.6, 'ins-wc': 119.0, 'ins-am': 58.34 'srch-wc': 55, 'srch-am': 53.56, 'del-wc': 107.0000000000291, 'del-am': 101.5}, 
+{'alpha': 0.7, 'ins-wc': 134.0, 'ins-am': 73.15, 'srch-wc': 83.0, 'srch-am': 67.65, 'del-wc': 137.0, 'del-am': 126.2}, 
+{'alpha': 0.8, 'ins-wc': 141.0, 'ins-am': 75.75, 'srch-wc': 72.0, 'srch-am': 70.45, 'del-wc': 145.0, 'del-am': 135.8}, 
+{'alpha': 0.9, 'ins-wc': 149.00, 'ins-am': 82.9, 'srch-wc': 75.0, 'srch-am': 73.75, 'del-wc': 145.9999999999418, 'del-am': 142.65}
+
+
+-- Chained Hashing (Gaussian Keys)
+
+{'alpha': 0.1, 'ins-wc': 17.0, 'ins-am': 15.3, 'srch-wc': 18.0, 'srch-am': 14.7, 'del-wc': 30.0, 'del-am': 25.749999999998543}, 
+{'alpha': 0.2, 'ins-wc': 27.0, 'ins-am': 25.6, 'srch-wc': 26.0, 'srch-am': 24.55, 'del-wc': 49.99, 'del-am': 46.35}, 
+{'alpha': 0.3, 'ins-wc': 36.0, 'ins-am': 34.8, 'srch-wc': 36.0, 'srch-am': 33.85, 'del-wc': 73.0, 'del-am': 66.0},
+{'alpha': 0.4, 'ins-wc': 41.0, 'ins-am': 40.2, 'srch-wc': 41.0, 'srch-am': 39.35, 'del-wc': 83.0, 'del-am': 77.15}, 
+{'alpha': 0.5, 'ins-wc': 46.0, 'ins-am': 43.55, 'srch-wc': 44.0, 'srch-am': 42.55, 'del-wc': 87.0, 'del-am': 83.9}, 
+{'alpha': 0.6, 'ins-wc': 56.0, 'ins-am': 51.6, 'srch-wc': 61.0, 'srch-am': 51.05, 'del-wc': 115.0, 'del-am': 100.65}, 
+{'alpha': 0.7, 'ins-wc': 77.0, 'ins-am': 68.05, 'srch-wc': 86.0, 'srch-am': 73.75, 'del-wc': 322.0, 'del-am': 233.1}, 
+{'alpha': 0.8, 'ins-wc': 70.0, 'ins-am': 67.15, 'srch-wc': 68.0, 'srch-am': 66.3, 'del-wc': 159.0, 'del-am': 134.5}, 
+{'alpha': 0.9, 'ins-wc': 73.0, 'ins-am': 70.70, 'srch-wc': 73.0, 'srch-am': 70.05, 'del-wc': 142.00, 'del-am': 139.8000000000262}
+
+
+
+-- Double Hashing (Random Keys)
+
+
+{'alpha': 0.1, 'ins-wc': 5.0, 'ins-am': 3.2, 'srch-wc': 6.0, 'srch-am': 3.0, 'del-wc': 4.0, 'del-am': 2.9}, 
+{'alpha': 0.2, 'ins-wc': 4.0, 'ins-am': 3.15, 'srch-wc': 4.0, 'srch-am': 2.95, 'del-wc': 4.0, 'del-am': 2.95}, 
+{'alpha': 0.3, 'ins-wc': 5.0, 'ins-am': 3.4, 'srch-wc': 4.0, 'srch-am': 3.25, 'del-wc': 4.0, 'del-am': 3.0}, 
+{'alpha': 0.4, 'ins-wc': 9.0, 'ins-am': 3.9, 'srch-wc': 9.0, 'srch-am': 3.95, 'del-wc': 9.0, 'del-am': 3.75}, 
+{'alpha': 0.5, 'ins-wc': 10.0, 'ins-am': 4.65, 'srch-wc': 9.0, 'srch-am': 4.4, 'del-wc': 9.0, 'del-am': 4.25}, 
+{'alpha': 0.6, 'ins-wc': 15.0, 'ins-am': 4.95, 'srch-wc': 15.0, 'srch-am': 4.75, 'del-wc': 15.0, 'del-am': 4.75}, 
+{'alpha': 0.7, 'ins-wc': 15.9, 'ins-am': 6.20, 'srch-wc': 15.00000, 'srch-am': 6.0999, 'del-wc': 14.99, 'del-am': 5.85}, 
+{'alpha': 0.9, 'ins-wc': 19.0, 'ins-am': 9.55, 'srch-wc': 18.0, 'srch-am': 9.45, 'del-wc': 20.0, 'del-am': 9.35}, 
+{'alpha': 0.9, 'ins-wc': 3782580.0, 'ins-am': 254585.1, 'srch-wc': 15.0, 'srch-am': 4.15, 'del-wc': 15.0, 'del-am': 4.0}
+
+
+
+-- Double Hashing (Gaussian Keys)
+
+
+{'alpha': 0.1, 'ins-wc': 4.0, 'ins-am': 3.0, 'srch-wc': 5.0, 'srch-am': 2.9, 'del-wc': 4.0, 'del-am': 2.7}, 
+{'alpha': 0.2, 'ins-wc': 4.0, 'ins-am': 3.15, 'srch-wc': 4.0, 'srch-am': 3.1, 'del-wc': 4.0, 'del-am': 2.95}, 
+{'alpha': 0.3, 'ins-wc': 6.0, 'ins-am': 3.55, 'srch-wc': 6.0, 'srch-am': 3.4, 'del-wc': 6.0, 'del-am': 3.2}, 
+{'alpha': 0.4, 'ins-wc': 8.0, 'ins-am': 4.15, 'srch-wc': 8.0, 'srch-am': 3.95, 'del-wc': 8.0, 'del-am': 3.85}, 
+{'alpha': 0.5, 'ins-wc': 12.0, 'ins-am': 4.65, 'srch-wc': 11.0, 'srch-am': 4.35, 'del-wc': 11.0, 'del-am': 4.3}, 
+{'alpha': 0.6, 'ins-wc': 17.0, 'ins-am': 5.45, 'srch-wc': 11.0, 'srch-am': 4.8, 'del-wc': 10.0, 'del-am': 4.65}, 
+{'alpha': 0.7, 'ins-wc': 16.0, 'ins-am': 6.45, 'srch-wc': 15.0, 'srch-am': 6.25, 'del-wc': 15.0, 'del-am': 5.95}, 
+{'alpha': 0.8, 'ins-wc': 23.0, 'ins-am': 7.0, 'srch-wc': 23.00, 'srch-am': 6.950000000000728, 'del-wc': 23.0, 'del-am': 6.599999999998545}, 
+{'alpha': 0.9, 'ins-wc': 387623.94, 'ins-am': 19390.9, 'srch-wc': 12.0, 'srch-am': 3.3500000000116414, 'del-wc': 10.999999999941792, 'del-am': 2.79}
+
+
+
+-- Cuckoo Hashing (Uniform Keys)
+
+{'alpha': 0.1, 'ins-wc': 4.0, 'ins-am': 2.55, 'srch-wc': 6.0, 'srch-am': 2.7, 'del-wc': 3.0, 'del-am': 2.0}, 
+{'alpha': 0.2, 'ins-wc': 5.0, 'ins-am': 2.95, 'srch-wc': 3.0, 'srch-am': 2.4, 'del-wc': 3.0, 'del-am': 2.0}, 
+{'alpha': 0.3, 'ins-wc': 6.0, 'ins-am': 2.95, 'srch-wc': 3.0, 'srch-am': 2.6, 'del-wc': 2.0, 'del-am': 2.0}, 
+{'alpha': 0.4, 'ins-wc': 11.0, 'ins-am': 4.15, 'srch-wc': 5.0, 'srch-am': 2.4, 'del-wc': 4.0, 'del-am': 2.3}, 
+{'alpha': 0.5, 'ins-wc': 1260.0, 'ins-am': 68.0, 'srch-wc': 5.0, 'srch-am': 3.05, 'del-wc': 4.0, 'del-am': 2.75}, 
+{'alpha': 0.6, 'ins-wc': 1523.0, 'ins-am': 83.05, 'srch-wc': 4.0, 'srch-am': 2.4, 'del-wc': 3.0, 'del-am': 2.15}
+
+
+-- Cuckoo Hashing (Gaussian Keys)
+
+{'alpha': 0.1, 'ins-wc': 5.0, 'ins-am': 2.4, 'srch-wc': 5.0, 'srch-am': 2.3, 'del-wc': 3.0, 'del-am': 2.1}, 
+{'alpha': 0.2, 'ins-wc': 4.0, 'ins-am': 2.45, 'srch-wc': 3.0, 'srch-am': 2.75, 'del-wc': 2.0, 'del-am': 1.9}, 
+{'alpha': 0.30, 'ins-wc': 9.0, 'ins-am': 3.4, 'srch-wc': 4.0, 'srch-am': 2.5, 'del-wc': 3.0, 'del-am': 2.05}, 
+{'alpha': 0.4, 'ins-wc': 19.0, 'ins-am': 5.25, 'srch-wc': 4.0, 'srch-am': 2.85, 'del-wc': 3.0, 'del-am': 2.25}, 
+{'alpha': 0.5, 'ins-wc': 5833.0, 'ins-am': 297.30, 'srch-wc': 4.00, 'srch-am': 2.9000, 'del-wc': 3.99996, 'del-am': 2.3499}, 
+{'alpha': 0.6, 'ins-wc': 12281.0, 'ins-am': 944.5, 'srch-wc': 4.0, 'srch-am': 2.4, 'del-wc': 3.0, 'del-am': 2.0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
