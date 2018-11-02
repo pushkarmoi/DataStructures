@@ -93,7 +93,7 @@ class AVL(object):
                 if entry.left: entry.left.parent = entry
                 if entry.right: entry.right.paent = entry
                 parent = entry.parent
-            elif (entry.left is None) and entry.left:
+            elif (entry.right is None) and entry.left:
                 temp = entry.left
                 entry.value = temp.value
                 entry.height = temp.height
